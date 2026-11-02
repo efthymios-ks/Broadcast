@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="Broadcast/Broadcast.csproj" />
+  <Project Path="Broadcast.Redis/Broadcast.Redis.csproj" />
+  <Project Path="Broadcast.Tests/Broadcast.Tests.csproj" />
+  <Project Path="Broadcast.Redis.Tests/Broadcast.Redis.Tests.csproj" />
+</Solution>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+	</ItemGroup>
+
+	<ItemGroup Label="Access internals for test projects">
+		<InternalsVisibleTo Include="Broadcast.Tests" />
+		<InternalsVisibleTo Include="Broadcast.Redis" />
+		<InternalsVisibleTo Include="Broadcast.Redis.Tests" />
+		<InternalsVisibleTo Include="DynamicProxyGenAssembly2" />
+	</ItemGroup>
+
+</Project>
